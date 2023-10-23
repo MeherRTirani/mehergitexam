@@ -16,7 +16,7 @@ class Tree:
         print("the amount spent on tree is : "+str(self.amount_tree))
         
     def update(self):
-        self.Treecode=int(input("Update the Treecode :"))
+        self.Treecode=int(input("Update the the the Treecode :"))
         self.height=int(input("Update the height of tree :"))
         self.base=int(input("Update the base of tree :"))
         self.amount_tree=(int(input("Update the amount spent on tree :")))
